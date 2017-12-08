@@ -1,17 +1,17 @@
 # Desafio Front-end do Agenda Edu
 
 
-### Introdução
+## Introdução
 
 Estamos muito felizes que você tenha chegado nessa etapa do nosso processo seletivo, para essa fase, desejamos que você resolva um desafio básico.
 
 
-### Desafio
+## Desafio
 
 Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão principal da empresa, aonde será possível visualizar os principais repositórios de cada linguagem de programação utilizada na empresa, utilizando a [API do GitHub](https://developer.github.com/v3/). Ele deseja que os principais repositórios de cada linguagem sejam acessados por tabs. A idéia é motivar o time de desenvolvimento, mostrando as maiores tendências no mundo da programação. Como nosso líder técnico é apaixonado por performance, é extratamente necessário que a aplicação utilize paginação para exibição dos dados(utilizar o esquema de paginação fornecido pela [API do GitHub](https://developer.github.com/v3/). É necessário que seja possível favoritar repositórios e que eles sejam de fácil acesso.
 
 
-### Requisítos
+## Requisítos
 
 - Deve ser um PWA
 - Não é obrigatório o uso de um framework específico, mas recomendamos utilizar [React.js][reactjs-url], [Preact.js][preactjs-url] ou [Angular][angular-url]
@@ -21,7 +21,7 @@ Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão 
 - Os repositórios favoritados devem ser salvos utilizando o API [Realtime Database do Firebase][firebase-database-url] e no cache, utilizando a [Web API de cache][cache-api-url], o carregamento dos favoritos deve seguir o mesmo padrão do carregamento de repositórios citado acima.
 
 
-### Requisitos bonus
+## Requisitos bonus
 
 **Esses requisitos não são obrigatórios, mas seram levados em consideração como pontos extras no momento da avaliação.**
 
@@ -31,7 +31,7 @@ Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão 
 - Teste unitários, pode utilizar qualquer framework de teste, sugerimos utilizar [Jest][jest-url] ou [Mocha.js][mocha-url].
 
 
-### Critérios de avaliação
+## Critérios de avaliação
 
 - Organização do projeto: Avalia a estrutura do projeto, documentação e uso de controle de versão;
 - Inovação tecnológica: Avalia o uso de tecnologias mais recentes, desde que estáveis;
@@ -40,7 +40,7 @@ Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão 
 - Controle de Qualidade: Avalia se o projeto possui qualidade assegurada por testes automatizados (por exemplo [Jest][jest-url] ou [Mocha.js][mocha-url]) e integração contínua (por exemplo [Travis][travis-ci-url]).
 
 
-### Processo de submissão
+## Processo de submissão
 
 O desafio deve ser entregue pelo [GitHub][github-url]. A aplicação deve estar hospedada no ([Heroku][heroku-url], [Firebase][firebase-url], [AWS][aws-url], [gh-pages][gh-pages-url], etc) As URLs devem ser enviadas por email.
 
