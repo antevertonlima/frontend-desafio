@@ -8,7 +8,7 @@ Estamos muito felizes que você tenha chegado nessa etapa do nosso processo sele
 
 ## Desafio
 
-Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão principal da empresa, aonde será possível visualizar os principais repositórios de cada linguagem de programação utilizada na empresa, utilizando a [API do GitHub](https://developer.github.com/v3/). Ele deseja que os principais repositórios de cada linguagem sejam acessados por tabs. A idéia é motivar o time de desenvolvimento, mostrando as maiores tendências no mundo da programação. Como nosso líder técnico é apaixonado por performance, é extratamente necessário que a aplicação utilize paginação para exibição dos dados(utilizar o esquema de paginação fornecido pela [API do GitHub](https://developer.github.com/v3/). É necessário que seja possível favoritar repositórios e que eles sejam de fácil acesso.
+Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão principal da empresa, aonde será possível visualizar os principais repositórios de cada linguagem de programação utilizada na empresa, utilizando a [API do GitHub][github-api-url]. Ele deseja que os principais repositórios de cada linguagem sejam acessados por tabs. A idéia é motivar o time de desenvolvimento, mostrando as maiores tendências no mundo da programação. Como nosso líder técnico é apaixonado por performance, é extratamente necessário que a aplicação utilize paginação para exibição dos dados(utilizar o esquema de paginação fornecido pela [API do GitHub][github-api-url]). É necessário que seja possível favoritar repositórios e que eles sejam de fácil acesso.
 
 
 ## Requisítos
@@ -18,7 +18,7 @@ Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão 
 - Não é obrigatório o uso de um framework de controle de estado específico, mas recomendamos utilizar [Redux.js][reduxjs-url]
 - Necessário o uso de rotas
 - A lista de repositórios devem ser armazenadas em cache, para funcionamento offline, caso não exista dados no cache, a API deve ser consultada. Utilizar a [Web API de cache][cache-api-url].
-- Os repositórios favoritados devem ser salvos utilizando o API [Realtime Database do Firebase][firebase-database-url] e no cache, utilizando a [Web API de cache][cache-api-url], o carregamento dos favoritos deve seguir o mesmo padrão do carregamento de repositórios citado acima.
+- Os repositórios favoritados devem ser salvos utilizando o API [Realtime Database do Firebase][firebase-database-url] e no cache, utilizando a [Web API de cache][cache-api-url], o carregamento dos favoritos devem seguir o mesmo padrão do carregamento de repositórios citado acima.
 
 
 ## Requisitos bonus
@@ -56,6 +56,7 @@ Bom trabalho!
 [jest-url]: https://facebook.github.io/jest/
 [mocha-url]: https://mochajs.org/
 [github-url]: https://github.com
+[github-api-url]: https://developer.github.com/v3/
 [heroku-url]: https://www.heroku.com/
 [firebase-url]: https://www.firebase.com/
 [aws-url]: https://aws.amazon.com/
