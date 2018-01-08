@@ -14,8 +14,7 @@ Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão 
 ## Requisítos
 
 - Deve ser um PWA
-- Não é obrigatório o uso de um framework específico, mas recomendamos utilizar [React.js][reactjs-url], [Preact.js][preactjs-url] ou [Angular][angular-url]
-- Não é obrigatório o uso de um framework de controle de estado específico, mas recomendamos utilizar [Redux.js][reduxjs-url]
+- Sinta-se avontade para usar qualquer framework de view / controle de estado desejado.
 - Necessário o uso de rotas
 - A lista de repositórios devem ser armazenadas em cache, para funcionamento offline, caso não exista dados no cache, a API deve ser consultada. Utilizar a [Web API de cache][cache-api-url].
 - Os repositórios favoritados devem ser salvos utilizando o API [Realtime Database do Firebase][firebase-database-url] e no cache, utilizando a [Web API de cache][cache-api-url], o carregamento dos favoritos devem seguir o mesmo padrão do carregamento de repositórios citado acima.
@@ -28,7 +27,7 @@ Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão 
 - Boa qualidade de UI/UX
 - Baixo tempo de renderização
 - Renderização de listas on-demand, exemplo: Dado que a lista tem 100 items, não renderizar a lista completa, renderizar apenas os items visíveis na tela e alguns extras para evitar engasgos de scroll.
-- Teste unitários, pode utilizar qualquer framework de teste, sugerimos utilizar [Jest][jest-url] ou [Mocha.js][mocha-url].
+- Testes unitários, pode utilizar qualquer framework de teste, e.g: [Jest][jest-url] ou [Mocha.js][mocha-url].
 
 
 ## Critérios de avaliação
