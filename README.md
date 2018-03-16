@@ -3,26 +3,26 @@
 
 ## Introdução
 
-Estamos muito felizes que você tenha chegado nessa etapa do nosso processo seletivo, para essa fase, desejamos que você resolva um desafio básico.
+Estamos muito felizes que você tenha chegado nessa etapa do nosso processo seletivo! Para essa fase desejamos que você resolva um desafio básico.
 
 
 ## Desafio
 
-Nosso líder técnico Renon Guirgel deseja exibir uma aplicação web no telão principal da empresa, aonde será possível visualizar os principais repositórios de cada linguagem de programação utilizada na empresa, utilizando a [API do GitHub][github-api-url]. Ele deseja que os principais repositórios de cada linguagem sejam acessados por tabs. A idéia é motivar o time de desenvolvimento, mostrando as maiores tendências no mundo da programação. Como nosso líder técnico é apaixonado por performance, é extratamente necessário que a aplicação utilize paginação para exibição dos dados(utilizar o esquema de paginação fornecido pela [API do GitHub][github-api-url]). É necessário que seja possível favoritar repositórios e que eles sejam de fácil acesso.
+Nosso líder técnico Renan Gurgel deseja exibir uma aplicação web no telão principal da empresa, onde será possível visualizar os principais repositórios de cada linguagem de programação utilizada na empresa, utilizando a [API do GitHub][github-api-url]. Ele deseja que os principais repositórios de cada linguagem sejam acessados por tabs. A ideia é motivar o time de desenvolvimento, mostrando as maiores tendências no mundo da programação. Como nosso ele é apaixonado por performance, é extremamente necessário que a aplicação utilize paginação para exibição dos dados(utilizar o esquema de paginação fornecido pela [API do GitHub][github-api-url]). É necessário que seja possível favoritar repositórios e que eles sejam de fácil acesso.
 
 
 ## Requisitos
 
 - Deve ser um PWA
-- Sinta-se avontade para usar qualquer framework de view / controle de estado desejado.
+- Sinta-se avontade para usar qualquer framework de view / controle de estado desejado
 - Necessário o uso de rotas
-- A lista de repositórios devem ser armazenadas em cache, para funcionamento offline, caso não exista dados no cache, a API deve ser consultada. Utilizar a [Web API de cache][cache-api-url].
-- Os repositórios favoritados devem ser salvos utilizando o API [Realtime Database do Firebase][firebase-database-url] e no cache, utilizando a [Web API de cache][cache-api-url], o carregamento dos favoritos devem seguir o mesmo padrão do carregamento de repositórios citado acima.
+- A lista de repositórios devem ser armazenadas em cache, para funcionamento offline. Caso não existam dados no cache, a API deve ser consultada. Utilizar a [Web API de cache][cache-api-url]
+- Os repositórios favoritados devem ser salvos utilizando o API [Realtime Database do Firebase][firebase-database-url] e no cache, utilizando a [Web API de cache][cache-api-url], o carregamento dos favoritos devem seguir o mesmo padrão do carregamento de repositórios citado acima
 
 
 ## Requisitos bônus
 
-**Esses requisitos não são obrigatórios, mas seram levados em consideração como pontos extras no momento da avaliação.**
+**Esses requisitos não são obrigatórios, mas serão levados em consideração como pontos extras no momento da avaliação.**
 
 - Boa qualidade de UI/UX
 - Baixo tempo de renderização
