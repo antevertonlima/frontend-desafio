@@ -8,7 +8,13 @@ Estamos muito felizes que você tenha chegado nessa etapa do nosso processo sele
 
 ## Desafio
 
-Nosso líder técnico Renan Gurgel deseja exibir uma aplicação web no telão principal da empresa, onde será possível visualizar os principais repositórios de cada linguagem de programação utilizada na empresa, utilizando a [API do GitHub][github-api-url]. Ele deseja que os principais repositórios de cada linguagem sejam acessados por tabs. A ideia é motivar o time de desenvolvimento, mostrando as maiores tendências no mundo da programação. Como nosso ele é apaixonado por performance, é extremamente necessário que a aplicação utilize paginação para exibição dos dados(utilizar o esquema de paginação fornecido pela [API do GitHub][github-api-url]). É necessário que seja possível favoritar repositórios e que eles sejam de fácil acesso.
+Nosso líder técnico Renan Gurgel deseja usar uma aplicação que liste os filmes mais populares do momento, para isso você deverá consumir a **API** do [TheMovieDB][tmdb-api-url], para essa aplicação será necessário na tela inicial mostrar uma listagem dos filmes mais populares, os mais populares sendo exibidos no topo da lista, utilizar o mecanismo de paginação fornecido pela **API**.
+
+Cada item da lista deve levar para uma página de detalhes do filme, aonde deve ser mostrado todos os atributos importantes do filme, como por exemplo: `title`, `description`, `rating`, `etc`.
+
+Deve ser possível realizar pesquisa por filmes em qualquer tela, a request de pesquisa deve ser disparada utilizando o processo de controle de fluxo **Debounce​** com um limite de tempo de **500ms**, esse controle deve ser feito devido ao limite de requests por segundo que a **API** impõe.
+
+Sobre a limitação de requests por segundo da **API** do [TheMovieDB][tmdb-api-url], esse limite deve ser tratado e deve ser exibido um feedback visual não invasivo para o usuário indicando que não foi possível realizar a operação devido a limitação da **API** e solicite que ele tente novamente em alguns segundos.
 
 
 ## Requisitos
@@ -26,7 +32,7 @@ Nosso líder técnico Renan Gurgel deseja exibir uma aplicação web no telão p
 
 - Boa qualidade de UI/UX
 - Baixo tempo de renderização
-- Renderização de listas on-demand, exemplo: Dado que a lista tem 100 items, não renderizar a lista completa, renderizar apenas os items visíveis na tela e alguns extras para evitar engasgos de scroll.
+- Renderização de listas on-demand, e.g: Dado que a lista tem 100 items, não renderizar a lista completa, renderizar apenas os items visíveis na tela e alguns extras para evitar engasgos de scroll.
 - Testes unitários, pode utilizar qualquer framework de teste, e.g: [Jest][jest-url] ou [Mocha.js][mocha-url].
 
 
@@ -47,6 +53,7 @@ Qualquer dúvida em relação ao desafio, responderemos por e-mail.
 
 Bom trabalho!
 
+[tmdb-api-url]: https://www.themoviedb.org/documentation/api
 [reactjs-url]: https://reactjs.org/
 [preactjs-url]: https://preactjs.com/
 [angular-url]: https://angular.io/
